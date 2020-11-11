@@ -1,0 +1,112 @@
+html {
+	background: #87CEFF;
+}
+
+/* #externalcontainer {
+	width: 75%;
+	text-align: center;
+	margin: 2% 0 0 0;
+	position: relative;
+}
+
+#internalcontainer {
+	position: relative;
+	display: inline-block;
+
+} */
+
+#start {
+	background: #C0FF3E;
+	height: 85%;
+	width: 25%;
+	position: absolute;
+	z-index: 5;
+	border: 2px solid black;
+	line-height: 25px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#internalstart {
+	position:absolute;
+	width:400px;
+	top:50%;
+    left:50%;
+    margin:-75px 0 0 -200px;
+}
+
+.radiobuton {
+	vertical-align: middle;
+}
+
+#gamecontainer{
+	visibility:hidden;
+}
+
+#infobar {
+	position: absolute;
+	height: 50px;
+	width:400px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+#timer {
+	background:white;
+	height: 50px;
+	width: 120px;
+	position:absolute;
+	margin-right:280px;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+#pause {
+	background:white;
+	height: 50px;
+	width: 158px;
+	margin-left: 120px;
+	margin-right: 120px;
+	position:absolute;
+	vertical-align: middle;
+	line-height: 50px;
+	border-left: 1px solid black;
+}
+
+#score {
+	background:white;
+	height: 200px;
+	width: 120px;
+	margin-left: 279px;
+	position:absolute;
+	vertical-align: middle;
+	line-height: 50px;
+	border-left: 1px solid black;
+}
+
+#highscore {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 25px;
+}
+
+
+
+#game {
+	background: white;
+	height: 600px;
+	width: 400px;
+	position: absolute;
+	z-index: 3;
+	border: 2px solid black;
+	margin-top: 50px;
+}
+
+#canvas {
+	background: white;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-user-select: none;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Level Select</title>
+		<meta name="description" content="Tap Game" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<script src="style.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+	
+	<div id ="externalcontainer">
+		<div id="internalcontainer">
+		
+			<div id="start">
+			
+				<div id="internalstart">
+				
+					<form id="form1">
+						Level: <br>
+						<div id="radiobuttons">
+							<label for="levelone">1</label>
+							<input id="levelone" class="radiobutton" type="radio" name="level" value="one" checked>
+							<label for="leveltwo">2</label>
+							<input id="leveltwo" class="radiobutton" type="radio" name="level" value="two"><br>
+						</div>
+					</form>
+					
+					<div id="highscore">
+						High Scores:<br>
+						Level 1: 0<br>
+						Level 2: 0<br>
+					</div>
+					
+					<button id="startbutton" type="button" autofocus onclick="gameStart()">Start</button>
+					
+				</div>
+				
+			</div>
+			
+			<div id="gamecontainer">
+			
+				<div id="infobar">
+				
+					<div id="timer">
+						<!-- timer text here -->
+						Time: 
+					</div>
+					
+					<div id="pause">
+						<!-- pause text here -->
+						Pause
+					</div>
+					
+					<div id="score">
+						<!-- score text here -->
+						Points: 0
+					</div>
+					
+				</div>
+				
+				<div id="game">
+					<canvas id="canvas" width="400" height="600"></canvas>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	</body>
+</html>
